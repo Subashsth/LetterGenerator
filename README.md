@@ -1,0 +1,2 @@
+# LetterGenerator
+Application letter generator
