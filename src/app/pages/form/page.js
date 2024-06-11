@@ -60,6 +60,7 @@ const FormGenerator = () => {
     month: "short",
     year: "numeric",
   });
+  const currentYear = new Date().getFullYear();
 
   return (
     <>
@@ -312,6 +313,14 @@ const FormGenerator = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="fixed bottom-0 left-0 right-0 bg-zinc-200 py-4  text-xs text-center">
+        <div className="cotnainer  mx-auto max-w-[1440px] px-10 ">
+          &copy; {currentYear + " "}
+          <a href="http://subashsth.netlify.app/" target="_blank">
+            Subash Shrestha
+          </a>
         </div>
       </div>
     </>
